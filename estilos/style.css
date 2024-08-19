@@ -152,6 +152,7 @@ body {
     }
     footer#rodape p {
         position: relative;
+        text-align: center;
         top: -20px;
         color: gray;
     }
