@@ -8,7 +8,7 @@ body {
 }
 /* cursor:pointer */
 
-@media (max-width:400px) {
+@media (min-width:100px) and (max-width:1024px) {
     /* Cabecalho mobile */
     header#cabecalho-mobile {
         height: 60px;
@@ -29,13 +29,13 @@ body {
         top: 10px;
         left: 10px;
     }
-    i#icone-menu {
+    /* i#icone-menu {
         position: relative;
+        display: block;
         font-size: 40px;
-        top: -65px;
-        left: 310px;
-        cursor: pointer;
-    }
+        margin-left: auto;
+        margin-right: auto;
+        /* top: -65px; */
     i#icone-menu:hover {
         background-color: aqua;
     }
@@ -68,8 +68,11 @@ body {
         position: relative;
         display: inline-block;
         top: -20px;
-        left: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        /* left: 25px; */
         text-align: center;
+        align-items: center;
     }
     section#sessao-contato img:hover {
         transform: scale(1.5);
@@ -78,12 +81,14 @@ body {
     /* Sessao do banner */
     section#banner {
         position: absolute;
-        top: 230px;
+        top: 240px;
         border: 3px solid purple;
         border-radius: 40px;
-        width: 340px;
-        height: 225px;
-        left: 10px;
+        padding: 10px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 230px;
         text-align: center;
         font-size: 12px;
         font-family: Arial;
@@ -118,12 +123,10 @@ body {
     div#video {
         position: absolute;
         top: 500px;
-        margin: 0;
-        padding: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding: 35px; */
         border-radius: 100px;
-        border: solid 2px black;
-        left: 20px;
-        background-color: #000;
     }
     section#portal-media {
         position: absolute;
@@ -140,26 +143,25 @@ body {
     }
     footer#rodape {
         position: absolute;
+        width: 100%;
+        height: 100px;
         color: #fff;
         background-color: #1E1C1C;
         border-top: 2px solid black;
-        top: 900px;
-        padding: 25px;
-        padding-left: 100px;
-        padding-right: 100px;
-        left: 10px;
+        top: 850px;
         box-shadow: 2px 2px 2px black;
     }
     footer#rodape p {
         position: relative;
         text-align: center;
-        top: -20px;
+        top: 0;
         color: gray;
     }
     footer#rodape img {
         position: relative;
         border-radius: 100px;
         margin: auto;
+        top: 20px;
         display: block;
         width: 50px;
         height: 50px;   
