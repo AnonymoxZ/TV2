@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <title>Frontpage para trabalho de escola</title>
+<link rel="stylesheet" href="Frontpage%20para%20trabalho%20de%20escola_arquivos/style.css"><link rel="stylesheet" href="Frontpage%20para%20trabalho%20de%20escola_arquivos/reset.css"><link rel="stylesheet" href="Frontpage%20para%20trabalho%20de%20escola_arquivos/icon.css"></head>
+<body>
+    <div id="screen-desktop"></div>
+    <div id="screen-mobile">
+        <header id="cabecalho-mobile">
+            <i id="icone-gallery" class="material-icons">photo_library</i>
+            <h1 id="cab-titulo">Frontpage</h1>
+            <ul id="lista-menu"><li>
+            <i id="icone-menu" class="material-icons">menu</i>
+            </li></ul>
+        </header>
+        <section id="sessao-contato">
+            <h5 id="sessao-contato-titulo">Contato</h5>
+            <ul id="sessao-perfis">
+                <li class="perfil-contato"><img src="Frontpage%20para%20trabalho%20de%20escola_arquivos/img-contato-1.png" alt="Perfil de contato">
+                <p>Nome</p></li>
+                <li class="perfil-contato"><img src="Frontpage%20para%20trabalho%20de%20escola_arquivos/img-contato-2.png" alt="Perfil de contato">
+                <p>Nome</p></li>
+                <li class="perfil-contato"><img src="Frontpage%20para%20trabalho%20de%20escola_arquivos/img-contato-3.png" alt="Perfil de contato">
+                <p>Nome</p></li>
+            </ul>
+        </section>
+            <section id="banner">
+                <h3 id="banner-titulo">Bem-vindo a nossa Frontpage</h3>
+                <h4>Faça seu dia extraordinário<br>com um Jordan</h4>
+                <figure id="img-banner">
+                    <img src="Frontpage%20para%20trabalho%20de%20escola_arquivos/img-produto-banner.png" alt="Tenis jordan roxo">
+                </figure>
+            </section>
+            <section id="portal-media">
+            <h3 style="visibility: hidden;">Portal &gt; videos</h3>
+            <div id="video">
+            <iframe width="300" height="205" src="Frontpage%20para%20trabalho%20de%20escola_arquivos/KXw7MM5rSrM.htm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+            </div>
+            </section>
+        <footer id="rodape">
+            <p>Copyright Vitor Carlos</p>
+            <a href="https://www.linkedin.com/in/vitor-carlos-ab480b2a8/">
+            <img id="linkedin" src="Frontpage%20para%20trabalho%20de%20escola_arquivos/contato-linkedin.png" alt="Logo Linkedin">
+            </a>
+        </footer>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<deepl-input-controller></deepl-input-controller></body></html>
