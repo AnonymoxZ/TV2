@@ -139,7 +139,7 @@ body {
         height: 135px;
     }
     #img-cafe {
-        position: fixed;
+        position: absolute;
         top: 550px;
         margin: auto;
         left: 100px;
