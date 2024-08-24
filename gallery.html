@@ -10,10 +10,80 @@
 </head>
 <style>
     body {
-        background-color: black;
+        background: url('./imagens/fundo-galeria.jpg') no-repeat;
+        background: linear-gradient(#140650,#8a0826);
+        background-size: cover;
         color: white;
+        height: 900px;
+    }
+    div#conteudo h1 {
+        position: relative;
+        text-align: center;
+        top: 0;
+        padding: 10px;
+        color: purple;
+        text-shadow: 2px 2px 3px black;
+        background: linear-gradient(rgb(2, 2, 72),rgb(48, 5, 48));
+        font-family: Vollkorn;
+        font-size: 30pt;
+    }
+    section#secao-fotos {
+        position: absolute;
+    }
+    #lista-fotos {
+        position: relative;
+        padding: 10px;
+        align-items: center;
+    }
+    ul#lista-fotos img {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        /* border: 4px solid purple; */
+        
+    }
+    ul#lista-fotos li {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        /* border-radius: 20px; */
+        transition: .4s;
+    }
+    ul#lista-fotos p {
+        opacity: 0%;
+        position: absolute;
+        top: 9px;
+        background-color: rgba(0,0,0,.4);
+        font-family: Arial;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        width: 300px;
+        height: 301px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    ul#lista-fotos li:hover {
+        /* border-radius: 20px; */
+        box-shadow: 2px 2px 4px black;
+    }
+    ul#lista-fotos p:hover {
+        opacity: 1;
     }
 </style>
 <body>
-    <h1>Aqui será uma galeria de fotos</h1>
+    <div id="conteudo">
+        <h1 id="titulo">Galeria</h1>
+        <section id="secao-fotos">
+            <ul id="lista-fotos">
+                <li><img src="./imagens/img-copo-1.jpg" alt="Imagem bolo de caneca"><p></p></li>
+                <li><img src="./imagens/img-copo-2.jpg" alt="Imagem bolo de caneca"><p></p></li>
+                <li><img src="./imagens/img-copo-3.jpg" alt="Imagem bolo de caneca"><p></p></li>
+                <li><img src="./imagens/img-copo-4.png" alt="Imagem bolo de caneca"><p></p></li>
+            </ul>
+        </section>
+    </div>
 </body>
