@@ -9,6 +9,10 @@ body {
 /* cursor:pointer */
 
 @media (min-width:100px) and (max-width:1024px) {
+    /* Div mobile */
+    #screen-mobile {
+        height: 900px;
+    }
     /* Cabecalho mobile */
     header#cabecalho-mobile {
         height: 80px;
