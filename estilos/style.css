@@ -183,7 +183,6 @@ body {
 @media (max-width:320px) {
     #screen-mobile {
         #img-cafe {
-            /* position: absolute; */
             top: 500px;
             display: flex;
             justify-content: center;
