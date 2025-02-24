@@ -1,7 +1,7 @@
 # Trabalho Versao 2
 
 Descrição:
-Template de frontpage web para trabalho de empreendedorismo do 2º ano do E.M
+Frontpage web para trabalho de empreendedorismo do 2º ano do E.M
 
 
 Atualmente só possui responsividade para telas mobile.
